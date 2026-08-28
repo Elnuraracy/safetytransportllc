@@ -121,7 +121,6 @@
   @media(max-width:860px){.about-grid{grid-template-columns:1fr;}}
   .about-grid h2{font-size:clamp(26px,3.4vw,38px);margin-bottom:18px;}
   .about-grid p{color:var(--steel);font-size:15.5px;margin-bottom:14px;}
-  .about-stats{background:var(--asphalt);padding:22px 28px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-self:start;}
   .info-card{border:1px solid var(--line-light);background:var(--paper-dim);}
   .info-card .ic-head{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--rust);padding:16px 22px;border-bottom:1px solid var(--line-light);}
   .info-row{display:grid;grid-template-columns:1fr 1.3fr;padding:14px 22px;border-bottom:1px solid var(--line-light);font-size:14px;}
@@ -264,10 +263,12 @@
         <p>That's still how the company runs today: dispatch plans the work, and the safety team keeps every truck and driver file in order behind it.</p>
         <p>We also run our own truck service shop, so mechanical issues get handled quickly and reliably in-house instead of leaving you stuck waiting on an outside garage.</p>
       </div>
-      <div class="about-stats">
-        <div class="strip-item">Years in Business<b>5</b></div>
-        <div class="strip-item">On-Time Deliveries<b>98.4%</b></div>
-        <div class="strip-item">States Covered<b>28</b></div>
+      <div class="info-card">
+        <div class="ic-head">Company Information</div>
+        <div class="info-row"><span class="k">Legal Name</span><span class="v">Safety Transport LLC</span></div>
+        <div class="info-row"><span class="k">Business Type</span><span class="v">Limited Liability Company</span></div>
+        <div class="info-row"><span class="k">Year Established</span><span class="v">2021</span></div>
+        <div class="info-row"><span class="k">Operation Type</span><span class="v">Dispatch &amp; Safety Management for Amazon Relay Carriers</span></div>
       </div>
     </div>
   </div>
